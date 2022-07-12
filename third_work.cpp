@@ -3,12 +3,10 @@
 
 int main() {
 	char name[90];
-	char q[1];
 	float x, y, res, tes, es, s;
 	printf("Hello friend, what's your name?\n");
 	scanf("%s", &name);
 	printf("Hello %s, let's start?\n",name);
-	scanf("%c", &q);
 	printf("Enter a number for x:");
 	scanf("%f", &x);
 	printf("Enter a number for y:");
